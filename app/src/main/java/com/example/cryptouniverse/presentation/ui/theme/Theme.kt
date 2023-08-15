@@ -21,7 +21,7 @@ private val LightColorPalette = lightColorScheme(
 )
 
 @Composable
-fun CryptocurrencyAppYTTheme(darkTheme: Boolean = true, content: @Composable() () -> Unit) {
+fun CryptoUniverseTheme(darkTheme: Boolean = true, content: @Composable() () -> Unit) {
     val colors = if (darkTheme) {
         DarkColorPalette
     } else {
